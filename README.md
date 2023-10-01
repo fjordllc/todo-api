@@ -1,4 +1,4 @@
-# Message Board API
+# TODO API
 
 APIの使い方のプラクティスのためのお試し用APIサーバー
 
@@ -13,6 +13,6 @@ npx soul-cli -d db.sqlite3 -p 8000
 下記のコマンドでアクセスできるか確かめましょう。（本の一覧がJSONデータで表示されればOKです）
 
 ```sh
-curl http://localhost:8000/api/tables/books/rows
-{"data":[{"id":1,"title":"新しいLinuxの教科書","price":2822},{"id":2,"title":"いちばんやさしいアジャイル開発の教本","price":1584},{"id":3,"title":"SCRUM BOOT CAMP THE BOOK","price":2376},{"id":4,"title":"アジャイルサムライ","price":2574},{"id":5,"title":"アジャイルな見積りと計画づくり","price":3168},{"id":6,"title":"Rubyふりがなプログラミング","price":1980},{"id":7,"title":"ゼロからわかる Ruby 超入門","price":2592},{"id":8,"title":"プロを目指す人のためのRuby入門","price":3278},{"id":9,"title":"リーダブルコード","price":2640},{"id":10,"title":"イラスト図解式 この一冊で全部わかるWeb技術の基本","price":1663}],"total":12,"next":"/tables/books/rows?_limit=10&_page=2","previous":null}
+curl http://localhost:8000/api/tables/todos/rows
+{"data":[{"id":1,"body":"牛乳を買う"},{"id":2,"body":"水を買う"},{"id":3,"body":"卵を買う"},{"id":4,"body":"筋トレをする"},{"id":5,"body":"ヨガをする"},{"id":6,"body":"誕生日プレゼントを買う"},{"id":7,"body":"美容室の予約をする"},{"id":8,"body":"お金を銀行から下ろす"},{"id":9,"body":"パスポートを更新する"},{"id":10,"body":"免許証を更新する"}],"total":10,"next":"/tables/todos/rows?_limit=10&_page=2","previous":null}
 ```
