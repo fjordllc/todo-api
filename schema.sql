@@ -1,0 +1,11 @@
+CREATE TABLE todos(id integer, body text);
+INSERT INTO todos values(1, '牛乳を買う');
+INSERT INTO todos values(2, '水を買う');
+INSERT INTO todos values(3, '卵を買う');
+INSERT INTO todos values(4, '筋トレをする');
+INSERT INTO todos values(5, 'ヨガをする');
+INSERT INTO todos values(6, '誕生日プレゼントを買う');
+INSERT INTO todos values(7, '美容室の予約をする');
+INSERT INTO todos values(8, 'お金を銀行から下ろす');
+INSERT INTO todos values(9, 'パスポートを更新する');
+INSERT INTO todos values(10, '免許証を更新する');
